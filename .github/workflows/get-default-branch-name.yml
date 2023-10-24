@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: print default branch name
         run: |
-          echo "github.event.repository.default_branch"
+          echo "${{ github.event.repository.default_branch }}"
